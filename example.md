@@ -11,9 +11,9 @@ paginate: true
 
 <!-- _class: section -->
 
-# 01. Overview
+# Section Divider
 
-A clean, business-oriented Marp theme
+Use `<!-- _class: section -->` to mark the start of a new chapter.
 
 ---
 
@@ -87,14 +87,6 @@ A clean, business-oriented Marp theme
 > they are an interface to your thinking."
 
 Use blockquotes for pull quotes, customer voices, and callouts.
-
----
-
-<!-- _class: section -->
-
-# 02. Get Started
-
-`theme: umino-biz` in your frontmatter
 
 ---
 
