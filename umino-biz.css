@@ -481,7 +481,7 @@ section {
         padding: 0 60px 0 60px;
     }
 
-    >h2:first-child:not(.no-header > h2):not(.title > h2) {
+    >h2:first-of-type:not(.no-header > h2):not(.title > h2) {
         width: 100%;
         color: #008080;
         margin: 0 0 24px 0 !important;
@@ -1020,6 +1020,35 @@ section[data-marpit-advanced-background="content"] > footer {
     text-align: left !important;
     pointer-events: none !important;
     transform: translateY(44px) !important;
+}
+
+/* ========== ヘッダー（右上・見出しと重ならない位置に配置） ========== */
+section > header,
+section[data-marpit-advanced-background="content"] > header {
+    color: #008080 !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    position: absolute !important;
+    top: 20px !important;
+    right: 30px !important;
+    left: auto !important;
+    bottom: auto !important;
+    z-index: 1000 !important;
+    line-height: 1 !important;
+    height: auto !important;
+    width: auto !important;
+    background: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: right !important;
+    pointer-events: none !important;
+}
+
+/* タイトルスライド・heroではヘッダーも非表示 */
+section.cover-page > header,
+section.hero > header,
+section:not(.title):not(.section):not(.hero):has(> h1) > header {
+    display: none !important;
 }
 
 /* タイトルスライド・heroではページ番号/フッター非表示（再確認） */
