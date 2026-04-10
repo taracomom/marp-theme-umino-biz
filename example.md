@@ -9,11 +9,25 @@ paginate: true
 
 ---
 
-<!-- _class: section -->
+## Image Layout
 
-# Section Divider
+<div class="flex sa">
+<div>
 
-Use `<!-- _class: section -->` to mark the start of a new chapter.
+### Use for
+
+- Charts and KPIs
+- Screenshots
+- Customer photos
+- Product diagrams
+
+</div>
+<div>
+
+![w:520](images/sample-chart.png)
+
+</div>
+</div>
 
 ---
 
@@ -21,7 +35,7 @@ Use `<!-- _class: section -->` to mark the start of a new chapter.
 
 - Teal (#008080) accent for a calm, trustworthy look
 - Optimized for Japanese typography (Hiragino Sans / Meiryo)
-- Cover, section, and content layouts ready to use
+- Cover, content, and image layouts ready to use
 - Box & flexbox utilities for fast composition
 - Designed for business decks, proposals, and reports
 

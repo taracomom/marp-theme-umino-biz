@@ -4,9 +4,9 @@
 
 ## プレビュー
 
-| カバーページ | セクション区切り | コンテンツ |
+| カバーページ | 画像レイアウト | コンテンツ |
 |---|---|---|
-| ![Cover](images/preview.001.png) | ![Section](images/preview.002.png) | ![Content](images/preview.003.png) |
+| ![Cover](images/preview.001.png) | ![Image Layout](images/preview.002.png) | ![Content](images/preview.003.png) |
 
 | ボックススタイル | 2カラムレイアウト | 引用ブロック |
 |---|---|---|
@@ -105,16 +105,29 @@ paginate: true
 <!-- _class: cover-page -->
 ```
 
-### セクション区切り
+### 画像レイアウト
 
-`<!-- _class: section -->` を使うと、章のはじまりを示すセクションスライドを作れます。背景がティールに塗りつぶされ、左上にタイトルとサブタイトルが配置されます。
+`.flex .sa` クラスで画像とテキストを横に並べられます。チャート・スクショ・写真の横にポイントを書くレイアウトに使えます。
 
 ```markdown
-<!-- _class: section -->
+## Image Layout
 
-# 01. Overview
+<div class="flex sa">
+<div>
 
-セクションの要約や狙いを書く
+### Use for
+
+- Charts and KPIs
+- Screenshots
+- Customer photos
+
+</div>
+<div>
+
+![w:520](images/sample-chart.png)
+
+</div>
+</div>
 ```
 
 ### ボックススタイル
