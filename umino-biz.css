@@ -617,13 +617,14 @@ section {
 
     &.section {
         background-color: #008080;
-        padding: 0 100px;
-        justify-content: center;
+        padding: 60px 100px !important;
+        justify-content: center !important;
         color: #FFFFFF;
 
         h1 {
             position: static;
             color: #FFFFFF;
+            margin: 0 0 40px 0;
         }
 
         h2, h3, h4, h5, h6 {
@@ -632,6 +633,7 @@ section {
 
         p {
             color: #FFFFFF;
+            margin: 0;
         }
 
         ::after {
@@ -639,7 +641,6 @@ section {
         }
 
         >* {
-            margin: 0;
             position: static;
         }
     }
