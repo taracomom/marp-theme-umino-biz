@@ -4,13 +4,12 @@
 
 ## プレビュー
 
-| カバーページ | 画像レイアウト | コンテンツ |
+| | | |
 |---|---|---|
-| ![Cover](images/preview.001.png) | ![Image Layout](images/preview.002.png) | ![Content](images/preview.003.png) |
-
-| ボックススタイル | 2カラムレイアウト | 引用ブロック |
-|---|---|---|
-| ![Boxes](images/preview.004.png) | ![Columns](images/preview.005.png) | ![Quote](images/preview.007.png) |
+| ![](images/preview.001.png) | ![](images/preview.002.png) | ![](images/preview.003.png) |
+| ![](images/preview.004.png) | ![](images/preview.005.png) | ![](images/preview.006.png) |
+| ![](images/preview.007.png) | ![](images/preview.008.png) | ![](images/preview.009.png) |
+| ![](images/preview.010.png) | ![](images/preview.011.png) | ![](images/preview.012.png) |
 
 ## 特徴
 

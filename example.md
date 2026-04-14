@@ -2,109 +2,132 @@
 marp: true
 theme: umino-biz
 paginate: true
+footer: "Umino Biz Theme"
 ---
 
-# Marp Theme<br>Umino Biz<!--fit-->
-<!-- _class: cover-page -->
+<!-- _paginate: false -->
+<!-- _footer: "" -->
 
----
+# Marpテーマ<br>Umino Biz<!--fit-->
+ウミノ
 
-## Image Layout
-
-<div class="flex sa">
-<div>
-
-### Use for
-
-- Charts and KPIs
-- Screenshots
-- Customer photos
-- Product diagrams
-
-</div>
-<div>
-
-![w:520](images/sample-chart.png)
-
-</div>
-</div>
+<!-- _class: section -->
 
 ---
 
-## Features
+## 特徴
+<br>
 
-- Teal (#008080) accent for a calm, trustworthy look
-- Optimized for Japanese typography (Hiragino Sans / Meiryo)
-- Cover, content, and image layouts ready to use
-- Box & flexbox utilities for fast composition
-- Designed for business decks, proposals, and reports
+- ティール（#008080）をアクセントにした落ち着いた配色
+- 日本語タイポグラフィ（ヒラギノ角ゴ／メイリオ）に最適化
+- カバー・セクション・ヒーロー・コンテンツの各レイアウトに対応
+- ボックスとフレックスのユーティリティでサクッと構成
+- ビジネス資料・提案書・レポート向け
 
 ---
 
-## Box Styles
+## ボックススタイル
+<br>
 
 <div class="box">
 
-`.box` — neutral container for key facts and figures.
+`.box` — 数値やファクトをまとめる基本の箱
 
 </div>
 
 <div class="box-highlight">
 
-`.box-highlight` — call out tips, takeaways, or recommendations.
+`.box-highlight` — ポイントやおすすめを強調する
 
 </div>
 
 <div class="box-warning">
 
-`.box-warning` — flag risks, warnings, or things to avoid.
+`.box-warning` — リスクや注意点を目立たせる
 
 </div>
 
 ---
 
-## Two-Column Layout
+## 2カラムレイアウト
+<br>
 
 <div class="flex sa">
 <div>
 
 ### Before
 
-- Manual reporting
-- Slides take hours
-- Hard to keep on-brand
+- 手作業でレポート作成
+- スライドに何時間もかかる
+- ブランドの統一が難しい
 
 </div>
 <div>
 
 ### After
 
-- Markdown-driven
-- Slides in minutes
-- Consistent visual identity
+- Markdownで書くだけ
+- スライドを数分で作成
+- ビジュアルが常に統一
 
 </div>
 </div>
 
 ---
 
-## Why Markdown Decks?
+## 番号付きリスト
 
-- Version-controlled with Git
-- Edit anywhere, even on mobile
-- Perfect for engineering & data teams
-- Reusable across web, PDF, and print
+<br>
 
----
-
-> "Good slides are not decoration —
-> they are an interface to your thinking."
-
-Use blockquotes for pull quotes, customer voices, and callouts.
+1) イントロダクション
+2) セットアップ：拡張機能とテーマの適用
+3) 基本：Marp構文のエッセンス
+4) 応用：AIでテーマを作って書き出す
+5) まとめ：AIと一緒にライブデモ
 
 ---
 
-## Installation
+## テーブル
+<br>
+
+| 機能 | 対応 |
+|---|---|
+| カバースライド | `_class: section` またはH1自動 |
+| ページ番号 | `paginate: true` |
+| フッター／ヘッダー | `footer:` / `header:` ディレクティブ |
+| カスタムボックス | `.box` `.box-highlight` `.box-warning` |
+| フレックスレイアウト | `.flex .sa` `.flex .sb` |
+
+---
+
+<!-- _class: table-custom -->
+
+## カスタムテーブル
+<br>
+
+| 機能 | 対応 |
+|---|---|
+| カバースライド | `_class: section` またはH1自動 |
+| ページ番号 | `paginate: true` |
+| フッター／ヘッダー | `footer:` / `header:` ディレクティブ |
+| カスタムボックス | `.box` `.box-highlight` `.box-warning` |
+
+---
+
+## 引用ブロック
+<br>
+
+> 良いスライドは装飾ではなく
+> あなたの思考に触れるためのインターフェース。
+
+<br>
+
+引用はプルクオート、お客様の声、コールアウトに使います。
+
+---
+
+## コードブロック
+<br>
 
 ```yaml
 ---
@@ -113,9 +136,39 @@ theme: umino-biz
 paginate: true
 ---
 ```
+<br>
 
 ```bash
 marp --theme-set umino-biz.css slide.md
 ```
 
-That's it. See the README for VS Code and Obsidian setup.
+---
+
+## テキストカラーヘルパー
+
+`_class` でスライドごとに文字色を切り替えられます。
+
+- `all-text-blue` — 全テキストを青に
+- `all-text-red` — 全テキストを赤に
+- `h2-text-red` — H2だけ赤に
+- `text-center` — 段落を中央揃えに
+
+---
+
+## スクリーンショットスタイル
+<br>
+
+`screenshot` クラスで枠線と影つきの見た目に。
+
+<br>
+
+<img class="screenshot" src="./images/sample-chart.png">
+
+---
+
+<!-- _paginate: false -->
+<!-- _footer: "" -->
+
+# ありがとうございました
+
+<!-- _class: cover -->
